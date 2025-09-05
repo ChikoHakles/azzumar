@@ -1,0 +1,127 @@
+/* === Card testimony (tanpa ubah class lama) === */
+#testimony ~ .col-sm-4 > .pricing {
+  display: flex;
+  flex-direction: column;
+  /* samakan tinggi semua kartu (boleh kamu ubah angkanya) */
+  min-height: 104px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+#testimony ~ .col-sm-4 > .pricing:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.10);
+}
+
+/* baris kiri-kanan: avatar kiri, teks kanan */
+#testimony ~ .col-sm-4 .tst-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* avatar kiri: ukuran adaptif (tetap proporsional di berbagai device) */
+#testimony ~ .col-sm-4 .tst-avatar {
+  --avatar: clamp(64px, 12vw, 96px); /* min 64, ideal 12vw, max 96 */
+  width: var(--avatar);
+  height: var(--avatar);
+  flex: 0 0 var(--avatar);
+  border-radius: 12px;       /* default kotak rounded */
+  overflow: hidden;
+  background: #f3f4f6;
+}
+#testimony ~ .col-sm-4 .tst-avatar.is-rounded { border-radius: 9999px; } /* bulat */
+#testimony ~ .col-sm-4 .tst-avatar.is-square { border-radius: 12px; }    /* kotak */
+
+/* cara gambar mengisi avatar:
+   - default: cover (terisi penuh, bisa crop halus)
+   - tambah class .fit-contain untuk tampil utuh (no crop, letterbox/pillarbox) */
+#testimony ~ .col-sm-4 .tst-avatar img {
+  width: 100%; height: 100%;
+  object-fit: cover;         /* penuh, crop halus */
+  display: block;
+}
+#testimony ~ .col-sm-4 .tst-avatar.fit-contain img { object-fit: contain; }
+
+/* konten kanan */
+#testimony ~ .col-sm-4 .tst-body {
+  flex: 1 1 auto;
+  min-width: 0;              /* biar teks bisa ellipsis kalau sempit */
+}
+#testimony ~ .col-sm-4 .tst-body h3 {
+  margin: 2px 0 6px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#testimony ~ .col-sm-4 .tst-body p[lbl^="testimony-"] {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;     /* batasi 4 baris agar tinggi kartu seragam */
+  overflow: hidden;
+}
+
+/* jaga section list di dasar kartu */
+#testimony ~ .col-sm-4 > .pricing > .margin-b-30 { flex: 1 1 auto; }
+#testimony ~ .col-sm-4 > .pricing > ul { margin-top: auto; }
+
+/* responsif kecil: sedikit ringkas */
+@media (max-width: 767px){
+  #testimony ~ .col-sm-4 > .pricing { min-height: 280px; }
+  #testimony ~ .col-sm-4 .tst-body p[lbl^="testimony-"] { -webkit-line-clamp: 3; }
+}
+  .masonry-grid { margin-left:-10px; margin-right:-10px; }
+  .masonry-grid-item { padding:10px; }
+  .radius { border-radius:16px; }
+  .work { position:relative; overflow:hidden;}
+  .work img {display:block; transform:scale(1);}
+  .work::after {
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,.15) 100%);
+    pointer-events:none;
+  }
+  .on-hover:hover { transform:scale(1.04); transition:transform .5s ease; }
+  /* Variasi ukuran “abstrak” berbasis aspect-ratio */
+  .ratio-1x1 .work-overlay { aspect-ratio:1/1; }
+  .ratio-4x3 .work-overlay { aspect-ratio:4/3; }
+  .ratio-3x4 .work-overlay { aspect-ratio:3/4; }
+  .ratio-16x9 .work-overlay { aspect-ratio:16/9; }
+  /* Wide di md ke atas: gunakan col-md-8 agar berbeda ukuran */
+
+  .ratio-1x1 img { width: 100%;}
+  .ratio-4x3 img { width: 100%;}
+  .ratio-3x4 img { height: 100%;
+  width: auto;          /* biarkan width auto */
+  object-fit: cover;    /* crop supaya tetap proporsional */}
+  .ratio-16x9 img { width: 100%;}
+  @media (min-width:992px){
+    .wide-md { width:66.66666667%; }
+  }
+.carousel-inner .item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Pilihan 1: Overlay Gradasi Hitam ke Transparan (Modern & Fleksibel) */
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%); */
+
+  /* Pilihan 2: Overlay Gradasi Hitam Penuh di Bawah (Baik untuk teks di bawah) */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.7) 100%); */
+
+  /* Pilihan 3: Overlay Warna Solid Semi-Transparan (Simpel & Bersih) */
+  background-color: rgba(0, 0, 0, 0.4); /* Ganti warna dan opacity sesuai keinginan */
+
+  z-index: 1; /* Pastikan overlay di atas gambar tapi di bawah teks */
+}
+.carousel-inner .carousel-centered {
+  z-index: 2;
+}

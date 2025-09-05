@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+   
+    <head>
+        <meta charset="utf-8"/>
+        <title lbl="title">Azzumar</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+   
+  
+    <body id="body" data-spy="scroll" data-target=".header">
+          <header class="header navbar-fixed-top">
+              <nav class="navbar" role="navigation">
+                <div class="container">
+                      <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only" lbl="header.toggle_navigation">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                          <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <p>Azzumar</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse nav-collapse">
+					
+					<!--div class="language-switcher">
+					  <ul class="nav-lang">
+                        <li><a class="active" href="#">EN</a></li>
+					    <li><a href="#">DE</a></li>
+						<li><a href="#">FR</a></li>
+					  </ul>
+					</div---> 
+					
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body" lbl="header-home">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products" lbl="header-products">Products</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#testimony" lbl="header-testimony">Testimony</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#galery" lbl="header-galery">Galery</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact" lbl="header-contact">Contact</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#location" lbl="header-location">Location</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+			</header>
+       
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+            </div>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="content/header-3.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h1 class="carousel-title" lbl="carousel-1-title">Hi-End Solutions</h1>
+                                <p class="color-white" lbl="carousel-1-sub-title">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                            </div>
+                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" lbl="carousel-1-button">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="content/header-7.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title" lbl="carousel-2-title">Personal Approach</h2>
+                                <p class="color-white" lbl="carousel-2-sub-title">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                            </div>
+                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" lbl="carousel-2-button">Take a Tour</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="content-lg container">
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="on-hover masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+                        <div class="margin-b-60">
+                            <h2 lbl="about-1-title">Harmonious Planning</h2>
+                            <p lbl="about-1-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
+                        </div>
+                        <img class="radius full-width img-responsive wow fadeInUp" src="content/header.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
+                    </div>
+                    <div class="on-hover masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-b-60">
+                          <h2 lbl="about-2-title">Easy Integration</h2>
+                          <p lbl="about-2-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>  
+                        </div>
+						 <img class="radius full-width img-responsive wow fadeInUp" src="content/header.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
+                    </div>
+                    <div class="on-hover masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-t-60 margin-b-60">
+                            <h2 lbl="about-3-title">Superior Support</h2>
+                            <p lbl="about-3-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
+                        </div>
+                        <img class="radius full-width img-responsive wow fadeInUp" src="content/header.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">
+                    </div>
+				</div>
+                <!-- End Masonry Grid -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Latest Products -->
+        <div id="products">
+            <div class="content-lg container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2 lbl="products-title">Recent Projects</h2>
+                        <p lbl="products-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="radius img-responsive" src="content/header.jpg" alt="Latest Products Image">
+                        </div>
+                        <h4><a href="#"lbl="products-1-title">Interior</a></h4>
+                        <p lbl="products-1-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#"lbl="products-1-button">Details</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="radius img-responsive" src="content/header.jpg" alt="Latest Products Image">
+                        </div>
+                        <h4><a href="#"lbl="products-2-title">Trend</a></h4>
+                        <p lbl="products-2-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#"lbl="products-2-button">Details</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="radius img-responsive" src="content/header.jpg" alt="Latest Products Image">
+                        </div>
+                        <h4><a href="#"lbl="products-3-title">Fresh Style</a></h4>
+                        <p lbl="products-3-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#"lbl="products-3-button">Details</a>
+                    </div>
+                    <!-- End Latest Products -->
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Latest Products -->
+
+        <!-- Pricing -->
+        <div id="testimony">
+            <div class="bg-color-sky-light">
+                <div class="content-lg container">
+                    <div class="row row-space-1">
+                    <h1 id="testimony" lbl="testimony" class="header">Testimony</h1>
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="pricing on-hover">
+                            <div class="margin-b-30">
+                                <div class="tst-row">
+                                    <div class="tst-avatar is-rounded fit-contain">
+                                        <img src="content/chiko.jpg" alt="Foto Iik">
+                                    </div>
+                                    <div class="tst-body">
+                                        <h3 lbl="testimony-1-title">Iik</h3>
+                                        <p lbl="testimony-1-sub-title" title="Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor">
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled pricing-list margin-b-50"></ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="pricing on-hover">
+                            <div class="margin-b-30">
+                                <div class="tst-row">
+                                    <div class="tst-avatar is-rounded fit-contain">
+                                        <img src="content/chiko.jpg" alt="Foto Iik">
+                                    </div>
+                                    <div class="tst-body">
+                                        <h3 lbl="testimony-2-title">Iik</h3>
+                                        <p lbl="testimony-2-sub-title" title="Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor">
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled pricing-list margin-b-50"></ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="pricing on-hover">
+                            <div class="margin-b-30">
+                                <div class="tst-row">
+                                    <div class="tst-avatar is-rounded fit-contain">
+                                        <img src="content/chiko.jpg" alt="Foto Iik">
+                                    </div>
+                                    <div class="tst-body">
+                                        <h3 lbl="testimony-3-title">Iik</h3>
+                                        <p lbl="testimony-3-sub-title" title="Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor">
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled pricing-list margin-b-50"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Pricing -->
+
+        <!-- Work -->
+        <div id="galery">
+            <div class="section-seperator">
+                <div class="content-md container">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                            <h2 lbl="galery-title">Portfolio</h2>
+                            <p lbl="galery-sub-title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <!-- Masonry Grid -->
+                    <div class="masonry-grid row">
+                    <!-- sizer untuk Masonry -->
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-4"></div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-16x9">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-16x9">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-2.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- item wide di md+ (lebih “abstrak” komposisinya) -->
+                    <div class="masonry-grid-item col-xs-12 col-sm-12 col-md-8 wide-md ratio-16x9">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-3.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-16x9">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-4.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-3x4">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-5.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-16x9">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-6.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-3x4">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-7.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ratio-3x4">
+                        <div class="work work-popup-trigger radius">
+                        <div class="work-overlay">
+                            <img class="on-hover img-responsive" src="content/header-8.jpg" alt="Portfolio Image">
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- End Masonry Grid -->
+                </div>
+            </div>
+            
+            <!-- Clients -->
+            <div class="content-lg container">
+                <!-- Swiper Clients -->
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide on-hover">
+                            <img class="swiper-clients-img radius" src="content/header.jpg" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide on-hover">
+                            <img class="swiper-clients-img radius" src="content/header-2.jpg" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide on-hover">
+                            <img class="swiper-clients-img radius" src="content/header-3.jpg" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide on-hover">
+                            <img class="swiper-clients-img radius" src="content/header-4.jpg" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide on-hover">
+                            <img class="swiper-clients-img radius" src="content/header-3.jpg" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide on-hover">
+                            <img class="swiper-clients-img radius" src="content/header-2.jpg" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper -->
+                </div>
+                <!-- End Swiper Clients -->
+            </div>
+            <!-- End Clients -->
+        </div>
+        <!-- End Work -->
+
+        <!-- Services -->
+        <!-- <div id="services">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="content-lg container">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                            <h2>Services</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        </div>
+                    </div>
+
+                    <div class="row row-space-1 margin-b-2">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Company Formation</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service bg-color-base" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">Stuff Management</h3>
+                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>KPI Optimization</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-space-1">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-notebook"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Information Security</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-speedometer"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Recrutinment</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Materials Supply</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- End Service -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="col-sm-6">
+                <h2 lbl="location-title">Contact & Location</h2>
+                <p lbl="location-sub-title"></p>
+            </div>
+            <!-- <div class="section-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <div class="col-sm-4 sm-margin-b-50">
+                            <h3><a href="http://ft-seo.ch/">Zurich</a> <span class="text-uppercase margin-l-20">Human Resources</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +41 60 66 555 44 33</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> hr@flameonepage.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4 sm-margin-b-50">
+                            <h3><a href="http://ft-seo.ch/">Malta</a> <span class="text-uppercase margin-l-20">Development</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +356 7965 1257</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> developmemt@flameonepage.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4 sm-margin-b-50">
+                            <h3><a href="http://ft-seo.ch/">Manchester</a> <span class="text-uppercase margin-l-20">CEO</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +44 654 583 5518</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> ceo@flameonepage.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+            <!-- Google Map -->
+            <div class="map height-600">
+			<iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.328384595672!2d106.9133617!3d-6.2203567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d4067cd3255%3A0xde76a33d61848a4a!2sAzzumar%20wisata!5e0!3m2!1sid!2sid!4v1755007679027!5m2!1sid!2sid" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+			</div>
+        </div>
+        <!-- <div class="margin-t-5 full-width">
+            <iframe width="100%" height="660" src="https://www.youtube.com/embed/GOH98YXayAg?si=7pwEgZRHF7GYmZjV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div> -->
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Links -->
+            <div class="section-seperator">
+                <div class="content-md container">
+                    <div class="row">
+                        <div class="col-sm-2 sm-margin-b-30">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a href="#">Twitter</a></li>
+                                <li class="footer-list-item"><a href="#">Facebook</a></li>
+                                <li class="footer-list-item"><a href="#">Instagram</a></li>
+                                <li class="footer-list-item"><a href="#">YouTube</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <p>Azzumar</p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+        <script src="js/fetch.js"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
