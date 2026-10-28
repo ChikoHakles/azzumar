@@ -1,0 +1,32 @@
+{
+  "1": [
+    { "day": 1, "activity": "Kedatangan & Check-in", "desc": "Tiba di titik pertemuan, transfer ke hotel, dan briefing selamat datang.", "time": "09:00 - 12:00", "location": "Hotel & Lobi" },
+    { "day": 2, "activity": "Ziarah Kota", "desc": "Kunjungan ke tempat-tempat bersejarah dan istirahat makan siang di restoran lokal.", "time": "08:30 - 15:00", "location": "Pusat Kota" },
+    { "day": 3, "activity": "Check-out & Kepulangan", "desc": "Persiapan check-out dan transfer ke bandara.", "time": "07:30 - 11:00", "location": "Hotel / Bandara" }
+  ],
+  "2": [
+    { "day": 1, "activity": "Kedatangan & Orientasi", "desc": "Sambutan, orientasi paket, dan waktu bebas singkat.", "time": "09:00 - 13:00", "location": "Hotel" },
+    { "day": 2, "activity": "Tur Sejarah + Makan Siang", "desc": "Tur terarah ke situs-situs penting dan makan siang di lokasi khas.", "time": "08:00 - 16:00", "location": "Kota Tua" },
+    { "day": 3, "activity": "Kegiatan Religi & Kembali", "desc": "Kegiatan ibadah dipandu dan kembali ke hotel untuk check-out.", "time": "06:30 - 12:00", "location": "Masjid / Hotel" }
+  ],
+  "3": [
+    { "day": 1, "activity": "Kedatangan & Briefing Haji", "desc": "Briefing khusus haji dan penataan dokumen perjalanan.", "time": "10:00 - 13:00", "location": "Hotel" },
+    { "day": 2, "activity": "Kegiatan Haji Intensif", "desc": "Sesi praktik dan pengaturan transportasi ibadah.", "time": "07:00 - 17:00", "location": "Lokasi Ibadah" },
+    { "day": 3, "activity": "Waktu Bebas & Persiapan", "desc": "Waktu bebas bagi jamaah, pembekalan akhir.", "time": "09:00 - 14:00", "location": "Hotel" }
+  ],
+  "4": [
+    { "day": 1, "activity": "Kedatangan & Pengenalan Destinasi", "desc": "Pengenalan destinasi religius dan aturan kunjungan.", "time": "09:00 - 12:00", "location": "Hotel / Pusat Informasi" },
+    { "day": 2, "activity": "Kunjungan Religi", "desc": "Kunjungan ke beberapa situs religius dengan pemandu berpengalaman.", "time": "08:00 - 16:00", "location": "Situs Religi" },
+    { "day": 3, "activity": "Kegiatan Sosial & Pulang", "desc": "Kegiatan ringan komunitas dan persiapan pulang.", "time": "09:00 - 12:00", "location": "Komunitas Lokal" }
+  ],
+  "5": [
+    { "day": 1, "activity": "Kedatangan & City Brief", "desc": "Orientasi singkat tentang rute wisata dan aturan perjalanan.", "time": "10:00 - 13:00", "location": "Hotel" },
+    { "day": 2, "activity": "Tur Sehari Penuh", "desc": "Jelajah landmark utama dan pengalaman kuliner lokal.", "time": "08:30 - 18:00", "location": "Kota / Landmark" },
+    { "day": 3, "activity": "Waktu Bebas & Belanja", "desc": "Waktu bebas untuk berbelanja dan kegiatan personal.", "time": "09:00 - 15:00", "location": "Area Belanja" }
+  ],
+  "6": [
+    { "day": 1, "activity": "Kedatangan & Check-in", "desc": "Sambutan, penjelasan rencana khusus Baghdad + umroh.", "time": "09:00 - 12:00", "location": "Hotel" },
+    { "day": 2, "activity": "Tur Baghdad Ringkas", "desc": "Kunjungan ke beberapa situs bersejarah di Baghdad.", "time": "08:00 - 16:00", "location": "Baghdad" },
+    { "day": 3, "activity": "Ibadah Utama & Kepulangan", "desc": "Pelaksanaan rangkaian ibadah utama dan persiapan pulang.", "time": "06:30 - 14:00", "location": "Lokasi Ibadah / Bandara" }
+  ]
+}

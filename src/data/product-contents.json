@@ -1,0 +1,140 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Umroh Murah",
+    "price": "Rp 8.999.000",
+    "duration": "9 Hari",
+    "description": "Paket umroh terjangkau dengan harga ekonomis tanpa mengurangi esensi ibadah dan kenyamanan Anda.",
+    "highlights": [
+      "Penerbangan langsung dari Jakarta",
+      "Hotel bintang 3 di Mekah dan Madinah",
+      "Visa umroh termasuk",
+      "Pemandu berpengalaman",
+      "Makan 3x sehari"
+    ],
+    "benefits": [
+      "Harga paling kompetitif di kelasnya",
+      "Fleksibilitas jadwal keberangkatan",
+      "Asuransi perjalanan lengkap",
+      "Layanan 24/7 selama perjalanan",
+      "Garansi uang kembali jika tidak puas"
+    ],
+    "itinerary_id": "1",
+    "image": "content/header.jpg"
+  },
+  "2": {
+    "id": 2,
+    "name": "Umroh Plus",
+    "price": "Rp 12.999.000",
+    "duration": "12 Hari",
+    "description": "Paket umroh dengan tambahan kunjungan ke destinasi sejarah Islam atau kota lain yang menarik.",
+    "highlights": [
+      "Semua fasilitas Umroh Murah",
+      "Kunjungan ke Madinah Al-Munawwarah",
+      "Tur ke Jabal Uhud dan Masjid Quba",
+      "Kunjungan ke Istana Topkapi (opsional)",
+      "Waktu belanja di Mekah dan Madinah"
+    ],
+    "benefits": [
+      "Pengalaman spiritual yang lebih mendalam",
+      "Edukasi sejarah Islam yang komprehensif",
+      "Kesempatan networking dengan jamaah lain",
+      "Dokumentasi profesional tersedia",
+      "Paket cicilan tanpa bunga"
+    ],
+    "itinerary_id": "2",
+    "image": "content/header-2.jpg"
+  },
+  "3": {
+    "id": 3,
+    "name": "Haji Furoda",
+    "price": "Rp 45.999.000",
+    "duration": "30 Hari",
+    "description": "Jalur haji non-kuota resmi yang menjamin keberangkatan lebih cepat dengan pelayanan premium.",
+    "highlights": [
+      "Keberangkatan terjamin tanpa antri",
+      "Hotel bintang 4 di Mekah dan Madinah",
+      "Transportasi mewah dengan AC",
+      "Pemandu haji bersertifikat internasional",
+      "Paket all-inclusive dengan bonus"
+    ],
+    "benefits": [
+      "Menunaikan ibadah haji dengan nyaman",
+      "Layanan VIP dan prioritas",
+      "Akomodasi dekat Masjidil Haram",
+      "Konsultasi kesehatan gratis",
+      "Program purna haji dan alumni"
+    ],
+    "itinerary_id": "3",
+    "image": "content/header-3.jpg"
+  },
+  "4": {
+    "id": 4,
+    "name": "Wisata Halal",
+    "price": "Rp 15.999.000",
+    "duration": "10 Hari",
+    "description": "Paket liburan yang dirancang khusus untuk memenuhi kebutuhan perjalanan muslim dengan standar halal.",
+    "highlights": [
+      "Destinasi wisata halal terpilih",
+      "Makanan halal bersertifikat",
+      "Fasilitas sholat di setiap lokasi",
+      "Pemandu wisata muslim",
+      "Aktivitas keluarga yang aman"
+    ],
+    "benefits": [
+      "Liburan tanpa khawatir tentang halal",
+      "Edukasi budaya dan agama",
+      "Keamanan dan kenyamanan terjamin",
+      "Harga paket hemat untuk keluarga",
+      "Fleksibilitas destinasi sesuai minat"
+    ],
+    "itinerary_id": "4",
+    "image": "content/header-4.jpg"
+  },
+  "5": {
+    "id": 5,
+    "name": "Tur Asia & Eropa",
+    "price": "Rp 24.999.000",
+    "duration": "14 Hari",
+    "description": "Paket wisata umum yang tetap mengedepankan prinsip halal dan kenyamanan bagi wisatawan muslim.",
+    "highlights": [
+      "Kunjungan ke landmark terkenal",
+      "Makanan halal di setiap destinasi",
+      "Hotel bintang 3-4 pilihan",
+      "Pemandu wisata berpengalaman",
+      "Asuransi perjalanan internasional"
+    ],
+    "benefits": [
+      "Jelajahi dunia dengan aman",
+      "Pengalaman budaya yang kaya",
+      "Harga kompetitif untuk paket internasional",
+      "Visa assistance tersedia",
+      "Dokumentasi perjalanan profesional"
+    ],
+    "itinerary_id": "5",
+    "image": "content/header-5.jpg"
+  },
+  "6": {
+    "id": 6,
+    "name": "Umroh + Baghdad",
+    "price": "Rp 18.999.000",
+    "duration": "14 Hari",
+    "description": "Pengalaman umroh yang unik dengan kesempatan untuk mengunjungi kota bersejarah Baghdad, Irak.",
+    "highlights": [
+      "Umroh lengkap di Mekah dan Madinah",
+      "Kunjungan ke Baghdad dan Karbala",
+      "Ziarah ke situs bersejarah Islam",
+      "Pemandu lokal berpengalaman",
+      "Dokumentasi profesional"
+    ],
+    "benefits": [
+      "Pengalaman spiritual dan sejarah",
+      "Edukasi mendalam tentang peradaban Islam",
+      "Kesempatan langka untuk ziarah",
+      "Networking dengan jamaah dari berbagai negara",
+      "Paket cicilan tersedia"
+    ],
+    "itinerary_id": "6",
+    "image": "content/header-6.jpg"
+  }
+}

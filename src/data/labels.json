@@ -1,0 +1,61 @@
+{
+  "brandName": "Az-Zumar",
+  "nav": {
+    "home": "Beranda",
+    "packages": "Paket Kami",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami"
+  },
+  "hero": {
+    "title": "Perjalanan Suci Penuh Makna Bersama Az-Zumar",
+    "subtitle": "Biro perjalanan Haji & Umrah terpercaya yang siap melayani ibadah Anda dengan nyaman, aman, dan sesuai sunnah.",
+    "cta_primary": "Pesan Sekarang",
+    "cta_secondary": "Konsultasi Gratis"
+  },
+  "features": {
+    "title": "Mengapa Memilih Kami?",
+    "items": [
+      {
+        "title": "Terpercaya & Berizin Resmi",
+        "description": "Terdaftar resmi di Kementerian Agama Republik Indonesia."
+      },
+      {
+        "title": "Fasilitas Premium",
+        "description": "Hotel berbintang dekat dengan Masjidil Haram & Masjid Nabawi."
+      },
+      {
+        "title": "Pembimbing Berpengalaman",
+        "description": "Dibimbing langsung oleh ustadz yang kompeten dan berpengalaman."
+      }
+    ]
+  },
+  "packages": {
+    "title": "Pilihan Paket Ibadah",
+    "hajj": {
+      "title": "Haji Plus & Furoda",
+      "description": "Berangkat haji tanpa antre panjang dengan fasilitas VIP.",
+      "price": "Mulai dari $12,000"
+    },
+    "umrah": {
+      "title": "Umrah Reguler",
+      "description": "Paket umrah 9 hari dengan fasilitas nyaman dan ibadah khusyuk.",
+      "price": "Mulai dari Rp 27.500.000"
+    },
+    "tour": {
+      "title": "Halal Tour",
+      "description": "Jelajahi keindahan jejak peradaban Islam di berbagai negara.",
+      "price": "Mulai dari Rp 15.000.000"
+    }
+  },
+  "contact": {
+    "title": "Mulai Perjalanan Anda",
+    "description": "Hubungi kami via WhatsApp untuk informasi lebih lanjut dan pendaftaran.",
+    "whatsappNumber": "6281234567890",
+    "whatsappMessage": "Halo Az-Zumar, saya ingin konsultasi mengenai paket ibadah.",
+    "button": "Chat via WhatsApp"
+  },
+  "footer": {
+    "description": "Az-Zumar adalah biro perjalanan haji, umrah, dan wisata halal yang berkomitmen memberikan pelayanan terbaik bagi jamaah Indonesia.",
+    "copyright": "© 2026 Az-Zumar Tour & Travel. Hak Cipta Dilindungi."
+  }
+}
